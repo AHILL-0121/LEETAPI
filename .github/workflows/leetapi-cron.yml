@@ -1,0 +1,13 @@
+name: LeetAPI Daily Update
+on:
+  schedule:
+    - cron: '30 18 * * *'   # 12:00 AM IST (UTC+5:30)
+    - cron: '30 6 * * *'    # 12:00 PM IST (UTC+5:30)
+  workflow_dispatch:     # Optional: manual trigger
+jobs:
+  hit-api:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Call LeetAPI update endpoint
+        run: |
+          curl -X GET "https://leetapi.vercel.app/api/submissions/update"
