@@ -1,5 +1,18 @@
 [
   {
+    "id": "1935721769",
+    "title": "Department Top Three Salaries",
+    "titleSlug": "department-top-three-salaries",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1772460185",
+    "submissionDate": "2026-03-02 19:33:05",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/department-top-three-salaries/",
+    "isPending": false
+  },
+  {
     "id": "1934860350",
     "title": "Average Selling Price",
     "titleSlug": "average-selling-price",
