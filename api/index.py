@@ -78,8 +78,9 @@ class LeetCodeAPI:
         self.update_interval = 3600  # 1 hour in seconds
         self.all_submissions = []
         self.external_apis = {
-            "leetcode_stats_api": f"https://leetcode-stats-api.herokuapp.com/{LEETCODE_USERNAME}",
-            "alfa_leetcode_api": f"https://alfa-leetcode-api.onrender.com/{LEETCODE_USERNAME}/"
+            # Heroku stats API is unreliable/dead — removed
+            "alfa_leetcode_api":  f"https://alfa-leetcode-api.onrender.com/{LEETCODE_USERNAME}/",
+            "alfa_solved_api":    f"https://alfa-leetcode-api.onrender.com/{LEETCODE_USERNAME}/solved",
         }
         
         # GitHub is the primary data storage, especially for serverless environments
@@ -454,6 +455,15 @@ class LeetCodeAPI:
                 }
                 
             # Format the profile data
+            # NOTE: acSubmissionNum contains a row for "All" difficulty plus one per
+            # difficulty level. Using the "All" entry for total avoids double-counting.
+            easy_count   = ac_submissions.get("easy",   {}).get("count", 0)
+            medium_count = ac_submissions.get("medium", {}).get("count", 0)
+            hard_count   = ac_submissions.get("hard",   {}).get("count", 0)
+            all_count    = ac_submissions.get("all",    {}).get("count", 0)
+            # Fall back to summing individual difficulties if "All" row is missing
+            total_count  = all_count if all_count > 0 else (easy_count + medium_count + hard_count)
+
             formatted_profile = {
                 "username": user_data.get("username", ""),
                 "realName": profile.get("realName", ""),
@@ -465,10 +475,10 @@ class LeetCodeAPI:
                 "school": profile.get("school", ""),
                 "jobTitle": profile.get("jobTitle", ""),
                 "submissions": {
-                    "easy": ac_submissions.get("easy", {}).get("count", 0),
-                    "medium": ac_submissions.get("medium", {}).get("count", 0),
-                    "hard": ac_submissions.get("hard", {}).get("count", 0),
-                    "total": sum(item.get("count", 0) for item in submit_stats.get("acSubmissionNum", []))
+                    "easy":   easy_count,
+                    "medium": medium_count,
+                    "hard":   hard_count,
+                    "total":  total_count
                 },
                 "data_source": "leetcode_graphql"
             }
@@ -488,38 +498,30 @@ class LeetCodeAPI:
                 "data_source": "external_apis"
             }
             
-            # Try LeetCode Stats API (Heroku)
+            # Try Alfa LeetCode solved endpoint (returns easy/medium/hard solved counts)
             try:
-                response = requests.get(self.external_apis["leetcode_stats_api"], timeout=5)
+                response = requests.get(self.external_apis["alfa_solved_api"], timeout=10)
                 if response.status_code == 200:
-                    stats_data = response.json()
-                    if stats_data:
-                        combined_data["external_sources"].append("leetcode_stats_api")
-                        combined_data["status"] = stats_data.get("status")
-                        combined_data["message"] = stats_data.get("message")
-                        combined_data["total_solving_count"] = stats_data.get("totalSolved")
-                        combined_data["acceptance_rate"] = stats_data.get("acceptanceRate")
-                        combined_data["easy_solved"] = stats_data.get("easySolved")
-                        combined_data["total_easy"] = stats_data.get("totalEasy")
-                        combined_data["medium_solved"] = stats_data.get("mediumSolved")
-                        combined_data["total_medium"] = stats_data.get("totalMedium")
-                        combined_data["hard_solved"] = stats_data.get("hardSolved")
-                        combined_data["total_hard"] = stats_data.get("totalHard")
-                        combined_data["ranking"] = stats_data.get("ranking")
-                        combined_data["contribution_points"] = stats_data.get("contributionPoints")
-                        combined_data["reputation"] = stats_data.get("reputation")
-                        
-                        # Set the submission counts
-                        combined_data["submissions"] = {
-                            "easy": stats_data.get("easySolved", 0),
-                            "medium": stats_data.get("mediumSolved", 0),
-                            "hard": stats_data.get("hardSolved", 0),
-                            "total": stats_data.get("totalSolved", 0)
-                        }
+                    solved_data = response.json()
+                    if solved_data:
+                        combined_data["external_sources"].append("alfa_solved_api")
+                        easy_s   = solved_data.get("easySolved",   0) or solved_data.get("easy",   0)
+                        medium_s = solved_data.get("mediumSolved", 0) or solved_data.get("medium", 0)
+                        hard_s   = solved_data.get("hardSolved",   0) or solved_data.get("hard",   0)
+                        total_s  = solved_data.get("solvedProblem", 0) or solved_data.get("totalSolved", 0) or (easy_s + medium_s + hard_s)
+                        if total_s > 0:
+                            combined_data["submissions"] = {
+                                "easy":   easy_s,
+                                "medium": medium_s,
+                                "hard":   hard_s,
+                                "total":  total_s
+                            }
+                        combined_data["ranking"] = solved_data.get("ranking", 0)
+                        print(f"✅ Alfa solved API: easy={easy_s}, medium={medium_s}, hard={hard_s}, total={total_s}")
             except Exception as e:
-                print(f"⚠️ Error fetching from LeetCode Stats API: {e}")
-                
-            # Try Alfa LeetCode API (Render)
+                print(f"⚠️ Error fetching from Alfa solved API: {e}")
+
+            # Try Alfa LeetCode API (Render) — mainly for avatar/profile
             try:
                 response = requests.get(self.external_apis["alfa_leetcode_api"], timeout=5)
                 if response.status_code == 200:
