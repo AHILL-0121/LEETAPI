@@ -1,5 +1,18 @@
 [
   {
+    "id": "1936801713",
+    "title": "Department Highest Salary",
+    "titleSlug": "department-highest-salary",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1772548583",
+    "submissionDate": "2026-03-03 20:06:23",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/department-highest-salary/",
+    "isPending": false
+  },
+  {
     "id": "1935721769",
     "title": "Department Top Three Salaries",
     "titleSlug": "department-top-three-salaries",
