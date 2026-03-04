@@ -1,5 +1,18 @@
 [
   {
+    "id": "1937772730",
+    "title": "Managers with at Least 5 Direct Reports",
+    "titleSlug": "managers-with-at-least-5-direct-reports",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1772633526",
+    "submissionDate": "2026-03-04 19:42:06",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/managers-with-at-least-5-direct-reports/",
+    "isPending": false
+  },
+  {
     "id": "1936801713",
     "title": "Department Highest Salary",
     "titleSlug": "department-highest-salary",
