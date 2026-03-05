@@ -1,5 +1,18 @@
 [
   {
+    "id": "1939077483",
+    "title": "Swap Sex of Employees",
+    "titleSlug": "swap-sex-of-employees",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1772735837",
+    "submissionDate": "2026-03-06 00:07:17",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/swap-sex-of-employees/",
+    "isPending": false
+  },
+  {
     "id": "1937772730",
     "title": "Managers with at Least 5 Direct Reports",
     "titleSlug": "managers-with-at-least-5-direct-reports",
