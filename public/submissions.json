@@ -1,5 +1,18 @@
 [
   {
+    "id": "1939847154",
+    "title": "Friend Requests II: Who Has the Most Friends",
+    "titleSlug": "friend-requests-ii-who-has-the-most-friends",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1772803265",
+    "submissionDate": "2026-03-06 18:51:05",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends/",
+    "isPending": false
+  },
+  {
     "id": "1939077483",
     "title": "Swap Sex of Employees",
     "titleSlug": "swap-sex-of-employees",
