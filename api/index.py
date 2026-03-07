@@ -537,12 +537,19 @@ class LeetCodeAPI:
                         combined_data["active_days"] = alfa_data.get("active_days")
                         combined_data["max_streak"] = alfa_data.get("max_streak")
                         
-                        # Override submissions if available and not already set
+                        # Only set total if submissions doesn't already have proper data
                         if "total_problems_solved" in alfa_data:
+                            # Only update if submissions doesn't exist OR doesn't have breakdown
                             if "submissions" not in combined_data:
-                                combined_data["submissions"] = {}
-                                
-                            combined_data["submissions"]["total"] = alfa_data.get("total_problems_solved", 0)
+                                combined_data["submissions"] = {
+                                    "easy": 0,
+                                    "medium": 0,
+                                    "hard": 0,
+                                    "total": alfa_data.get("total_problems_solved", 0)
+                                }
+                            elif combined_data["submissions"].get("total", 0) == 0:
+                                # Only update total if it wasn't already set
+                                combined_data["submissions"]["total"] = alfa_data.get("total_problems_solved", 0)
                         
                         # Add any additional useful fields
                         if "real_name" in alfa_data and alfa_data["real_name"]:
