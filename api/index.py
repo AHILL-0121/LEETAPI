@@ -704,22 +704,46 @@ def calculate_streak(counts, year):
     return current, longest
 
 
-def generate_heatmap_svg(username, year, counts, total_submissions, streak, longest_streak):
-    """Generate a beautiful animated GitHub-style submission heatmap SVG."""
+def generate_heatmap_svg(username, year, counts, total_submissions, streak, longest_streak, theme='light'):
+    """Generate a beautiful animated GitHub-style submission heatmap SVG.
+    
+    Args:
+        theme: 'light' or 'dark' - determines the color scheme
+    """
 
     # ── Palette ───────────────────────────────────────────────────────────
-    BG_COLOR     = '#ffffff'
-    BORDER_COLOR = '#d0d7de'
-    EMPTY_COLOR  = '#ebedf0'
-    TEXT_COLOR   = '#57606a'
-    TITLE_COLOR  = '#1f2328'
-    ACCENT_COLOR = '#1a7f37'
-    COLOR_SCALE  = [
-        {'min': 1, 'max': 1,             'color': '#9be9a8'},
-        {'min': 2, 'max': 3,             'color': '#40c463'},
-        {'min': 4, 'max': 6,             'color': '#30a14e'},
-        {'min': 7, 'max': float('inf'), 'color': '#216e39'},
-    ]
+    if theme == 'dark':
+        # Dark theme colors
+        BG_COLOR     = '#0d1117'
+        BORDER_COLOR = '#30363d'
+        EMPTY_COLOR  = '#161b22'
+        TEXT_COLOR   = '#8b949e'
+        TITLE_COLOR  = '#c9d1d9'
+        ACCENT_COLOR = '#58a6ff'
+        COLOR_SCALE  = [
+            {'min': 1, 'max': 1,             'color': '#0e4429'},
+            {'min': 2, 'max': 3,             'color': '#006d32'},
+            {'min': 4, 'max': 6,             'color': '#26a641'},
+            {'min': 7, 'max': float('inf'), 'color': '#39d353'},
+        ]
+        BG_GRAD_START = '#0d1117'
+        BG_GRAD_END   = '#010409'
+    else:
+        # Light theme colors (default)
+        BG_COLOR     = '#ffffff'
+        BORDER_COLOR = '#d0d7de'
+        EMPTY_COLOR  = '#ebedf0'
+        TEXT_COLOR   = '#57606a'
+        TITLE_COLOR  = '#1f2328'
+        ACCENT_COLOR = '#1a7f37'
+        COLOR_SCALE  = [
+            {'min': 1, 'max': 1,             'color': '#9be9a8'},
+            {'min': 2, 'max': 3,             'color': '#40c463'},
+            {'min': 4, 'max': 6,             'color': '#30a14e'},
+            {'min': 7, 'max': float('inf'), 'color': '#216e39'},
+        ]
+        BG_GRAD_START = '#ffffff'
+        BG_GRAD_END   = '#f6f8fa'
 
     def get_color(count):
         if count == 0:
@@ -770,34 +794,34 @@ def generate_heatmap_svg(username, year, counts, total_submissions, streak, long
     TOTAL_H = SVG_H + 30 + 36   # +legend +stats
 
     # ── CSS ───────────────────────────────────────────────────────────────
-    css = """<defs>
+    css = f"""<defs>
       <filter id="glow">
         <feGaussianBlur stdDeviation="2" result="blur"/>
         <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
       </filter>
       <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
-        <stop offset="0%"   stop-color="#ffffff"/>
-        <stop offset="100%" stop-color="#f6f8fa"/>
+        <stop offset="0%"   stop-color="{BG_GRAD_START}"/>
+        <stop offset="100%" stop-color="{BG_GRAD_END}"/>
       </linearGradient>
     </defs>
     <style>
-      @keyframes cellIn {
-        0%   { opacity:0; transform:scale(0.2); }
-        60%  { opacity:1; transform:scale(1.15); }
-        100% { opacity:1; transform:scale(1); }
-      }
-      @keyframes slideUp {
-        from { opacity:0; transform:translateY(8px); }
-        to   { opacity:1; transform:translateY(0); }
-      }
-      @keyframes legendFade {
-        from { opacity:0; }
-        to   { opacity:1; }
-      }
-      .cell { opacity:0; animation:cellIn 0.3s ease forwards; }
-      .cell:hover { filter:url(#glow) brightness(1.6); cursor:pointer; }
-      .stat { animation:slideUp 0.45s ease both; }
-      .legend-item { animation:legendFade 0.4s ease 0.7s both; }
+      @keyframes cellIn {{
+        0%   {{ opacity:0; transform:scale(0.2); }}
+        60%  {{ opacity:1; transform:scale(1.15); }}
+        100% {{ opacity:1; transform:scale(1); }}
+      }}
+      @keyframes slideUp {{
+        from {{ opacity:0; transform:translateY(8px); }}
+        to   {{ opacity:1; transform:translateY(0); }}
+      }}
+      @keyframes legendFade {{
+        from {{ opacity:0; }}
+        to   {{ opacity:1; }}
+      }}
+      .cell {{ opacity:0; animation:cellIn 0.3s ease forwards; }}
+      .cell:hover {{ filter:url(#glow) brightness(1.6); cursor:pointer; }}
+      .stat {{ animation:slideUp 0.45s ease both; }}
+      .legend-item {{ animation:legendFade 0.4s ease 0.7s both; }}
     </style>"""
 
     # ── Cells ─────────────────────────────────────────────────────────────
@@ -1579,17 +1603,28 @@ def health_check():
 @app.route('/api/heatmap', methods=['GET'])
 @app.route('/api/heatmap.svg', methods=['GET'])
 def get_heatmap():
-    """Return an animated SVG submission heatmap for the given year."""
+    """Return an animated SVG submission heatmap for the given year.
+    
+    Query params:
+        year: Year to display (default: current year)
+        username: LeetCode username (default: env variable)
+        theme: 'light' or 'dark' (default: 'light')
+    """
     try:
         year     = request.args.get('year',     get_ist_now().year, type=int)
         username = request.args.get('username', LEETCODE_USERNAME)
+        theme    = request.args.get('theme',    'light').lower()
+        
+        # Validate theme parameter
+        if theme not in ['light', 'dark']:
+            theme = 'light'
 
         counts             = build_day_counts(leetcode_api.all_submissions, year)
         total_submissions  = sum(counts.values())
         streak, longest    = calculate_streak(counts, year)
 
         svg = generate_heatmap_svg(
-            username, year, counts, total_submissions, streak, longest
+            username, year, counts, total_submissions, streak, longest, theme
         )
 
         return Response(

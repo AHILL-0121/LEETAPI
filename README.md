@@ -55,6 +55,8 @@ After adding these variables, redeploy your application for the hourly updates a
 | `/api/submissions` | GET | Get recent submissions |
 | `/api/submissions/recent` | GET | Get submissions from last N hours |
 | `/api/submissions/fetch-recent` | POST | Fetch with custom limit |
+| `/api/heatmap.svg` | GET | Get animated contribution heatmap (supports light/dark theme) |
+| `/api/heatmap/data` | GET | Get raw heatmap data as JSON |
 
 ## 🔧 Usage Examples
 
@@ -68,6 +70,18 @@ GET /api/submissions/recent?hours=6&limit=20
 # Fetch custom amount
 POST /api/submissions/fetch-recent
 {"limit": 100}
+
+# Get heatmap SVG for current year (light theme - default)
+GET /api/heatmap.svg
+
+# Get heatmap SVG with dark theme
+GET /api/heatmap.svg?theme=dark
+
+# Get heatmap for specific year with dark theme
+GET /api/heatmap.svg?year=2025&theme=dark
+
+# Get raw heatmap data as JSON
+GET /api/heatmap/data?year=2025
 ```
 
 ## 🔧 Environment Variables
