@@ -704,11 +704,12 @@ def calculate_streak(counts, year):
     return current, longest
 
 
-def generate_heatmap_svg(username, year, counts, total_submissions, streak, longest_streak, theme='light'):
+def generate_heatmap_svg(username, year, counts, total_submissions, streak, longest_streak, theme='light', profile_data=None):
     """Generate a beautiful animated GitHub-style submission heatmap SVG.
     
     Args:
         theme: 'light' or 'dark' - determines the color scheme
+        profile_data: User profile data containing avatar and difficulty counts
     """
 
     # ── Palette ───────────────────────────────────────────────────────────
@@ -757,7 +758,8 @@ def generate_heatmap_svg(username, year, counts, total_submissions, streak, long
     CELL = 11
     GAP  = 2
     STEP = CELL + GAP
-    PAD_L, PAD_T, PAD_R, PAD_B = 38, 30, 22, 8
+    HEADER_H = 60  # Space for logo + avatar
+    PAD_L, PAD_T, PAD_R, PAD_B = 38, HEADER_H + 10, 22, 8
     MONTH_NAMES = ['Jan','Feb','Mar','Apr','May','Jun',
                    'Jul','Aug','Sep','Oct','Nov','Dec']
 
@@ -791,7 +793,7 @@ def generate_heatmap_svg(username, year, counts, total_submissions, streak, long
     total_columns = global_col
     SVG_W   = PAD_L + total_columns * STEP + PAD_R
     SVG_H   = PAD_T + 7 * STEP + PAD_B
-    TOTAL_H = SVG_H + 30 + 36   # +legend +stats
+    TOTAL_H = SVG_H + 30 + 36 + 30   # +legend +stats +difficulty-counts
 
     # ── CSS ───────────────────────────────────────────────────────────────
     css = f"""<defs>
@@ -875,6 +877,25 @@ def generate_heatmap_svg(username, year, counts, total_submissions, streak, long
         f'font-family="system-ui,-apple-system,sans-serif">More</text>'
     )
 
+    # ── Header (Logo + Avatar) ───────────────────────────────────────────
+    avatar_url = profile_data.get('avatar', '') if profile_data else ''
+    if not avatar_url:
+        avatar_url = f'https://assets.leetcode.com/users/{username}/avatar_1749400789.png'
+    
+    header_parts = [
+        # LeetCode Logo (left side)
+        f'<text x="{PAD_L}" y="35" font-size="16" fill="{TITLE_COLOR}" '
+        f'font-weight="700" font-family="system-ui,-apple-system,sans-serif">'
+        f'<tspan fill="#FFA116">Leet</tspan>Code</text>',
+        
+        # User avatar (right side)
+        f'<clipPath id="avatarClip"><circle cx="{SVG_W - PAD_R - 20}" cy="30" r="20"/></clipPath>',
+        f'<image href="{avatar_url}" x="{SVG_W - PAD_R - 40}" y="10" width="40" height="40" '
+        f'clip-path="url(#avatarClip)" style="animation:slideUp 0.4s ease both"/>',
+        f'<circle cx="{SVG_W - PAD_R - 20}" cy="30" r="20" fill="none" stroke="{BORDER_COLOR}" '
+        f'stroke-width="2" style="animation:slideUp 0.4s ease both"/>',
+    ]
+
     # ── Stats bar ─────────────────────────────────────────────────────────
     sy  = SVG_H + 30 + 22
     mid = SVG_W / 2
@@ -906,6 +927,42 @@ def generate_heatmap_svg(username, year, counts, total_submissions, streak, long
         f'font-family="system-ui,-apple-system,sans-serif" style="{dl}">'
         f'Best: {longest_streak}d</text>',
     ]
+    
+    # ── Difficulty Counts ─────────────────────────────────────────────────
+    difficulty_parts = []
+    if profile_data and 'submissions' in profile_data:
+        subs = profile_data['submissions']
+        easy_count = subs.get('easy', 0)
+        medium_count = subs.get('medium', 0)
+        hard_count = subs.get('hard', 0)
+        total_count = subs.get('total', 0)
+        
+        diff_y = sy + 22
+        diff_x_start = PAD_L
+        diff_spacing = 100
+        
+        difficulty_parts = [
+            # Easy
+            f'<text class="stat" x="{diff_x_start}" y="{diff_y}" font-size="10" '
+            f'fill="#00b8a3" font-weight="600" '
+            f'font-family="system-ui,-apple-system,sans-serif" style="animation-delay:0.6s">'
+            f'Easy: {easy_count}</text>',
+            # Medium
+            f'<text class="stat" x="{diff_x_start + diff_spacing}" y="{diff_y}" font-size="10" '
+            f'fill="#ffc01e" font-weight="600" '
+            f'font-family="system-ui,-apple-system,sans-serif" style="animation-delay:0.65s">'
+            f'Medium: {medium_count}</text>',
+            # Hard
+            f'<text class="stat" x="{diff_x_start + diff_spacing * 2}" y="{diff_y}" font-size="10" '
+            f'fill="#ef4743" font-weight="600" '
+            f'font-family="system-ui,-apple-system,sans-serif" style="animation-delay:0.7s">'
+            f'Hard: {hard_count}</text>',
+            # Total
+            f'<text class="stat" x="{SVG_W - PAD_R}" y="{diff_y}" font-size="10" '
+            f'fill="{TITLE_COLOR}" font-weight="700" text-anchor="end" '
+            f'font-family="system-ui,-apple-system,sans-serif" style="animation-delay:0.75s">'
+            f'Total Solved: {total_count}</text>',
+        ]
 
     # ── Assemble ──────────────────────────────────────────────────────────
     return (
@@ -915,11 +972,13 @@ def generate_heatmap_svg(username, year, counts, total_submissions, streak, long
         + css + '\n'
         + f'<rect width="{SVG_W}" height="{TOTAL_H}" rx="10" ry="10" '
           f'fill="url(#bgGrad)" stroke="{BORDER_COLOR}" stroke-width="1"/>\n'
+        + '\n'.join(header_parts) + '\n'
         + '\n'.join(month_labels) + '\n'
         + '\n'.join(day_labels) + '\n'
         + '\n'.join(rects) + '\n'
         + '\n'.join(legend_parts) + '\n'
         + '\n'.join(stats_parts) + '\n'
+        + '\n'.join(difficulty_parts) + '\n'
         + '</svg>'
     )
 
@@ -1622,9 +1681,12 @@ def get_heatmap():
         counts             = build_day_counts(leetcode_api.all_submissions, year)
         total_submissions  = sum(counts.values())
         streak, longest    = calculate_streak(counts, year)
+        
+        # Fetch user profile data for avatar and difficulty counts
+        profile_data = leetcode_api.fetch_user_profile()
 
         svg = generate_heatmap_svg(
-            username, year, counts, total_submissions, streak, longest, theme
+            username, year, counts, total_submissions, streak, longest, theme, profile_data
         )
 
         return Response(
