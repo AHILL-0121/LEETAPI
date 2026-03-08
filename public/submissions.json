@@ -1,5 +1,18 @@
 [
   {
+    "id": "1942166457",
+    "title": "Number of Visible People in a Queue",
+    "titleSlug": "number-of-visible-people-in-a-queue",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1772992321",
+    "submissionDate": "2026-03-08 23:22:01",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/number-of-visible-people-in-a-queue/",
+    "isPending": false
+  },
+  {
     "id": "1940972265",
     "title": "Customers Who Bought All Products",
     "titleSlug": "customers-who-bought-all-products",
