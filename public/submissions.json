@@ -1,5 +1,18 @@
 [
   {
+    "id": "1952191513",
+    "title": "Count Pairs Whose Sum is Less than Target",
+    "titleSlug": "count-pairs-whose-sum-is-less-than-target",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1773845591",
+    "submissionDate": "2026-03-18 20:23:11",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/count-pairs-whose-sum-is-less-than-target/",
+    "isPending": false
+  },
+  {
     "id": "1949248338",
     "title": "Replace Employee ID With The Unique Identifier",
     "titleSlug": "replace-employee-id-with-the-unique-identifier",
