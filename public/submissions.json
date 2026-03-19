@@ -1,5 +1,18 @@
 [
   {
+    "id": "1953231574",
+    "title": "Movie Rating",
+    "titleSlug": "movie-rating",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1773939239",
+    "submissionDate": "2026-03-19 22:23:59",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/movie-rating/",
+    "isPending": false
+  },
+  {
     "id": "1952191513",
     "title": "Count Pairs Whose Sum is Less than Target",
     "titleSlug": "count-pairs-whose-sum-is-less-than-target",
