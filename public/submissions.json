@@ -1,5 +1,18 @@
 [
   {
+    "id": "1961028296",
+    "title": "Convert Sorted List to Binary Search Tree",
+    "titleSlug": "convert-sorted-list-to-binary-search-tree",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1774626971",
+    "submissionDate": "2026-03-27 21:26:11",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/",
+    "isPending": false
+  },
+  {
     "id": "1960021080",
     "title": "Top Travellers",
     "titleSlug": "top-travellers",
