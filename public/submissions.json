@@ -1,5 +1,18 @@
 [
   {
+    "id": "1966000645",
+    "title": "Minimum Number of Operations to Convert Time",
+    "titleSlug": "minimum-number-of-operations-to-convert-time",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1775059401",
+    "submissionDate": "2026-04-01 21:33:21",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/minimum-number-of-operations-to-convert-time/",
+    "isPending": false
+  },
+  {
     "id": "1963866014",
     "title": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
     "titleSlug": "partitioning-into-minimum-number-of-deci-binary-numbers",
