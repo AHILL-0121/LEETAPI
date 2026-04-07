@@ -1,5 +1,18 @@
 [
   {
+    "id": "1971613565",
+    "title": "Actors and Directors Who Cooperated At Least Three Times",
+    "titleSlug": "actors-and-directors-who-cooperated-at-least-three-times",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1775570158",
+    "submissionDate": "2026-04-07 19:25:58",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times/",
+    "isPending": false
+  },
+  {
     "id": "1966000645",
     "title": "Minimum Number of Operations to Convert Time",
     "titleSlug": "minimum-number-of-operations-to-convert-time",
