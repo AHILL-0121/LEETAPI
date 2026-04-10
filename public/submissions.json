@@ -1,5 +1,18 @@
 [
   {
+    "id": "1974567750",
+    "title": "Minimum Distance Between Three Equal Elements I",
+    "titleSlug": "minimum-distance-between-three-equal-elements-i",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1775834095",
+    "submissionDate": "2026-04-10 20:44:55",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/minimum-distance-between-three-equal-elements-i/",
+    "isPending": false
+  },
+  {
     "id": "1973618451",
     "title": "Monthly Transactions I",
     "titleSlug": "monthly-transactions-i",
