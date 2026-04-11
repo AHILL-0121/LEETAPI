@@ -1,5 +1,18 @@
 [
   {
+    "id": "1975684071",
+    "title": "Reformat Department Table",
+    "titleSlug": "reformat-department-table",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1775931211",
+    "submissionDate": "2026-04-11 23:43:31",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/reformat-department-table/",
+    "isPending": false
+  },
+  {
     "id": "1974567750",
     "title": "Minimum Distance Between Three Equal Elements I",
     "titleSlug": "minimum-distance-between-three-equal-elements-i",
