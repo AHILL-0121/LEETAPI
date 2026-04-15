@@ -1,5 +1,18 @@
 [
   {
+    "id": "1978855609",
+    "title": "Capital Gain/Loss",
+    "titleSlug": "capital-gainloss",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1776229063",
+    "submissionDate": "2026-04-15 10:27:43",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/capital-gainloss/",
+    "isPending": false
+  },
+  {
     "id": "1975684071",
     "title": "Reformat Department Table",
     "titleSlug": "reformat-department-table",
