@@ -1,5 +1,18 @@
 [
   {
+    "id": "1981002278",
+    "title": "Primary Department for Each Employee",
+    "titleSlug": "primary-department-for-each-employee",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1776436503",
+    "submissionDate": "2026-04-17 20:05:03",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/primary-department-for-each-employee/",
+    "isPending": false
+  },
+  {
     "id": "1978855609",
     "title": "Capital Gain/Loss",
     "titleSlug": "capital-gainloss",
