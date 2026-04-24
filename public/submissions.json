@@ -1,5 +1,18 @@
 [
   {
+    "id": "1987070224",
+    "title": "Furthest Point From Origin",
+    "titleSlug": "furthest-point-from-origin",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1777042468",
+    "submissionDate": "2026-04-24 20:24:28",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/furthest-point-from-origin/",
+    "isPending": false
+  },
+  {
     "id": "1986254663",
     "title": "Sum of Distances",
     "titleSlug": "sum-of-distances",
