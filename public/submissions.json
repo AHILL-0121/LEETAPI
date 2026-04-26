@@ -1,5 +1,18 @@
 [
   {
+    "id": "1988775362",
+    "title": "Find Users With Valid E-Mails",
+    "titleSlug": "find-users-with-valid-e-mails",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1777221224",
+    "submissionDate": "2026-04-26 22:03:44",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/find-users-with-valid-e-mails/",
+    "isPending": false
+  },
+  {
     "id": "1987820944",
     "title": "Daily Leads and Partners",
     "titleSlug": "daily-leads-and-partners",
