@@ -1,5 +1,18 @@
 [
   {
+    "id": "1991105531",
+    "title": "Group Sold Products By The Date",
+    "titleSlug": "group-sold-products-by-the-date",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1777474999",
+    "submissionDate": "2026-04-29 20:33:19",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/group-sold-products-by-the-date/",
+    "isPending": false
+  },
+  {
     "id": "1990337910",
     "title": "Largest Number After Digit Swaps by Parity",
     "titleSlug": "largest-number-after-digit-swaps-by-parity",
