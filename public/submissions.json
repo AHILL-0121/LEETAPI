@@ -1,5 +1,18 @@
 [
   {
+    "id": "1998918510",
+    "title": "Find Followers Count",
+    "titleSlug": "find-followers-count",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1778338259",
+    "submissionDate": "2026-05-09 20:20:59",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/find-followers-count/",
+    "isPending": false
+  },
+  {
     "id": "1997438925",
     "title": "Invalid Tweets",
     "titleSlug": "invalid-tweets",
