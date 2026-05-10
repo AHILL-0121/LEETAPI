@@ -1,5 +1,18 @@
 [
   {
+    "id": "1999842677",
+    "title": "The Number of Employees Which Report to Each Employee",
+    "titleSlug": "the-number-of-employees-which-report-to-each-employee",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1778427732",
+    "submissionDate": "2026-05-10 21:12:12",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee/",
+    "isPending": false
+  },
+  {
     "id": "1998918510",
     "title": "Find Followers Count",
     "titleSlug": "find-followers-count",
