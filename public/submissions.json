@@ -1,5 +1,18 @@
 [
   {
+    "id": "2002242984",
+    "title": "Patients With a Condition",
+    "titleSlug": "patients-with-a-condition",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1778685436",
+    "submissionDate": "2026-05-13 20:47:16",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/patients-with-a-condition/",
+    "isPending": false
+  },
+  {
     "id": "2001306401",
     "title": "Number of Islands",
     "titleSlug": "number-of-islands",
