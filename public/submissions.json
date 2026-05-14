@@ -1,5 +1,18 @@
 [
   {
+    "id": "2003170355",
+    "title": "Check if Array is Good",
+    "titleSlug": "check-if-array-is-good",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1778778681",
+    "submissionDate": "2026-05-14 22:41:21",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/check-if-array-is-good/",
+    "isPending": false
+  },
+  {
     "id": "2002242984",
     "title": "Patients With a Condition",
     "titleSlug": "patients-with-a-condition",
