@@ -1,5 +1,18 @@
 [
   {
+    "id": "2004675346",
+    "title": "Customer Who Visited but Did Not Make Any Transactions",
+    "titleSlug": "customer-who-visited-but-did-not-make-any-transactions",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1778942690",
+    "submissionDate": "2026-05-16 20:14:50",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/customer-who-visited-but-did-not-make-any-transactions/",
+    "isPending": false
+  },
+  {
     "id": "2003681011",
     "title": "Find Minimum in Rotated Sorted Array",
     "titleSlug": "find-minimum-in-rotated-sorted-array",
