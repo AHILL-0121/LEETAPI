@@ -1,5 +1,18 @@
 [
   {
+    "id": "2007204556",
+    "title": "Minimum Common Value",
+    "titleSlug": "minimum-common-value",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1779187063",
+    "submissionDate": "2026-05-19 16:07:43",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/minimum-common-value/",
+    "isPending": false
+  },
+  {
     "id": "2006532618",
     "title": "Jump Game IV",
     "titleSlug": "jump-game-iv",
