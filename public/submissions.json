@@ -1,5 +1,18 @@
 [
   {
+    "id": "2008254420",
+    "title": "Find the Prefix Common Array of Two Arrays",
+    "titleSlug": "find-the-prefix-common-array-of-two-arrays",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1779289270",
+    "submissionDate": "2026-05-20 20:31:10",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays/",
+    "isPending": false
+  },
+  {
     "id": "2007204556",
     "title": "Minimum Common Value",
     "titleSlug": "minimum-common-value",
