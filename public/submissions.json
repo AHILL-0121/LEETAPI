@@ -1,5 +1,18 @@
 [
   {
+    "id": "2009091183",
+    "title": "Find the Length of the Longest Common Prefix",
+    "titleSlug": "find-the-length-of-the-longest-common-prefix",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1779372404",
+    "submissionDate": "2026-05-21 19:36:44",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/",
+    "isPending": false
+  },
+  {
     "id": "2008254420",
     "title": "Find the Prefix Common Array of Two Arrays",
     "titleSlug": "find-the-prefix-common-array-of-two-arrays",
