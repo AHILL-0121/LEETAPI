@@ -1,5 +1,18 @@
 [
   {
+    "id": "2009953411",
+    "title": "Search in Rotated Sorted Array",
+    "titleSlug": "search-in-rotated-sorted-array",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1779456761",
+    "submissionDate": "2026-05-22 19:02:41",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "isPending": false
+  },
+  {
     "id": "2009091183",
     "title": "Find the Length of the Longest Common Prefix",
     "titleSlug": "find-the-length-of-the-longest-common-prefix",
