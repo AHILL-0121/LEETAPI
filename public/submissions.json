@@ -1,5 +1,18 @@
 [
   {
+    "id": "2012651395",
+    "title": "Jump Game VII",
+    "titleSlug": "jump-game-vii",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1779716571",
+    "submissionDate": "2026-05-25 19:12:51",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/jump-game-vii/",
+    "isPending": false
+  },
+  {
     "id": "2011873984",
     "title": "Fix Names in a Table",
     "titleSlug": "fix-names-in-a-table",
