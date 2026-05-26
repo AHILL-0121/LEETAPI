@@ -1,5 +1,18 @@
 [
   {
+    "id": "2013550523",
+    "title": "Count the Number of Special Characters I",
+    "titleSlug": "count-the-number-of-special-characters-i",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1779794381",
+    "submissionDate": "2026-05-26 16:49:41",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/count-the-number-of-special-characters-i/",
+    "isPending": false
+  },
+  {
     "id": "2012651395",
     "title": "Jump Game VII",
     "titleSlug": "jump-game-vii",
