@@ -1,5 +1,18 @@
 [
   {
+    "id": "2014781849",
+    "title": "Count the Number of Special Characters II",
+    "titleSlug": "count-the-number-of-special-characters-ii",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1779901715",
+    "submissionDate": "2026-05-27 22:38:35",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/count-the-number-of-special-characters-ii/",
+    "isPending": false
+  },
+  {
     "id": "2013550523",
     "title": "Count the Number of Special Characters I",
     "titleSlug": "count-the-number-of-special-characters-i",
