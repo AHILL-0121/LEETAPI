@@ -1,5 +1,18 @@
 [
   {
+    "id": "2015702220",
+    "title": "Longest Common Suffix Queries",
+    "titleSlug": "longest-common-suffix-queries",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1779987824",
+    "submissionDate": "2026-05-28 22:33:44",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/longest-common-suffix-queries/",
+    "isPending": false
+  },
+  {
     "id": "2014781849",
     "title": "Count the Number of Special Characters II",
     "titleSlug": "count-the-number-of-special-characters-ii",
