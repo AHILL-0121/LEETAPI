@@ -1,5 +1,18 @@
 [
   {
+    "id": "2017418956",
+    "title": "Block Placement Queries",
+    "titleSlug": "block-placement-queries",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1780159853",
+    "submissionDate": "2026-05-30 22:20:53",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/block-placement-queries/",
+    "isPending": false
+  },
+  {
     "id": "2016514359",
     "title": "Minimum Element After Replacement With Digit Sum",
     "titleSlug": "minimum-element-after-replacement-with-digit-sum",
