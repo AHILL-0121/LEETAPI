@@ -1,5 +1,18 @@
 [
   {
+    "id": "2019074855",
+    "title": "Minimum Cost of Buying Candies With Discount",
+    "titleSlug": "minimum-cost-of-buying-candies-with-discount",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1780315071",
+    "submissionDate": "2026-06-01 17:27:51",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/",
+    "isPending": false
+  },
+  {
     "id": "2017418956",
     "title": "Block Placement Queries",
     "titleSlug": "block-placement-queries",
