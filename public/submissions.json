@@ -1,5 +1,18 @@
 [
   {
+    "id": "2020463533",
+    "title": "Earliest Finish Time for Land and Water Rides I",
+    "titleSlug": "earliest-finish-time-for-land-and-water-rides-i",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1780421874",
+    "submissionDate": "2026-06-02 23:07:54",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/",
+    "isPending": false
+  },
+  {
     "id": "2019074855",
     "title": "Minimum Cost of Buying Candies With Discount",
     "titleSlug": "minimum-cost-of-buying-candies-with-discount",
