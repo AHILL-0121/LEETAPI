@@ -1,5 +1,18 @@
 [
   {
+    "id": "2024444087",
+    "title": "Left and Right Sum Differences",
+    "titleSlug": "left-and-right-sum-differences",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1780759401",
+    "submissionDate": "2026-06-06 20:53:21",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/left-and-right-sum-differences/",
+    "isPending": false
+  },
+  {
     "id": "2022487516",
     "title": "Total Waviness of Numbers in Range I",
     "titleSlug": "total-waviness-of-numbers-in-range-i",
