@@ -1,5 +1,18 @@
 [
   {
+    "id": "2025574081",
+    "title": "Create Binary Tree From Descriptions",
+    "titleSlug": "create-binary-tree-from-descriptions",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1780852009",
+    "submissionDate": "2026-06-07 22:36:49",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/create-binary-tree-from-descriptions/",
+    "isPending": false
+  },
+  {
     "id": "2024444087",
     "title": "Left and Right Sum Differences",
     "titleSlug": "left-and-right-sum-differences",
