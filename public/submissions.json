@@ -1,5 +1,18 @@
 [
   {
+    "id": "2027579058",
+    "title": "Maximum Total Subarray Value I",
+    "titleSlug": "maximum-total-subarray-value-i",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1781013225",
+    "submissionDate": "2026-06-09 19:23:45",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/maximum-total-subarray-value-i/",
+    "isPending": false
+  },
+  {
     "id": "2025574081",
     "title": "Create Binary Tree From Descriptions",
     "titleSlug": "create-binary-tree-from-descriptions",
