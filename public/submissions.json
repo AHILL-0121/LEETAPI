@@ -1,5 +1,18 @@
 [
   {
+    "id": "2028653903",
+    "title": "Bank Account Summary II",
+    "titleSlug": "bank-account-summary-ii",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1781097009",
+    "submissionDate": "2026-06-10 18:40:09",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/bank-account-summary-ii/",
+    "isPending": false
+  },
+  {
     "id": "2027579058",
     "title": "Maximum Total Subarray Value I",
     "titleSlug": "maximum-total-subarray-value-i",
