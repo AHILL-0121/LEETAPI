@@ -1,5 +1,18 @@
 [
   {
+    "id": "2029445437",
+    "title": "Number of Ways to Assign Edge Weights I",
+    "titleSlug": "number-of-ways-to-assign-edge-weights-i",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1781162697",
+    "submissionDate": "2026-06-11 12:54:57",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/",
+    "isPending": false
+  },
+  {
     "id": "2028653903",
     "title": "Bank Account Summary II",
     "titleSlug": "bank-account-summary-ii",
