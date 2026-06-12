@@ -1,5 +1,18 @@
 [
   {
+    "id": "2030857796",
+    "title": "Average Time of Process per Machine",
+    "titleSlug": "average-time-of-process-per-machine",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1781271778",
+    "submissionDate": "2026-06-12 19:12:58",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/average-time-of-process-per-machine/",
+    "isPending": false
+  },
+  {
     "id": "2029445437",
     "title": "Number of Ways to Assign Edge Weights I",
     "titleSlug": "number-of-ways-to-assign-edge-weights-i",
