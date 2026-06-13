@@ -1,5 +1,18 @@
 [
   {
+    "id": "2031897193",
+    "title": "Weighted Word Mapping",
+    "titleSlug": "weighted-word-mapping",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1781363672",
+    "submissionDate": "2026-06-13 20:44:32",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/weighted-word-mapping/",
+    "isPending": false
+  },
+  {
     "id": "2030857796",
     "title": "Average Time of Process per Machine",
     "titleSlug": "average-time-of-process-per-machine",
