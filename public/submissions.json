@@ -1,5 +1,18 @@
 [
   {
+    "id": "2033979953",
+    "title": "Delete the Middle Node of a Linked List",
+    "titleSlug": "delete-the-middle-node-of-a-linked-list",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1781530092",
+    "submissionDate": "2026-06-15 18:58:12",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/",
+    "isPending": false
+  },
+  {
     "id": "2031897193",
     "title": "Weighted Word Mapping",
     "titleSlug": "weighted-word-mapping",
