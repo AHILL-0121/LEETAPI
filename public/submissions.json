@@ -1,5 +1,18 @@
 [
   {
+    "id": "2036659557",
+    "title": "Find Total Time Spent by Each Employee",
+    "titleSlug": "find-total-time-spent-by-each-employee",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1781716354",
+    "submissionDate": "2026-06-17 22:42:34",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/find-total-time-spent-by-each-employee/",
+    "isPending": false
+  },
+  {
     "id": "2033979953",
     "title": "Delete the Middle Node of a Linked List",
     "titleSlug": "delete-the-middle-node-of-a-linked-list",
