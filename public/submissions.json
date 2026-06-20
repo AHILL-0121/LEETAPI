@@ -1,5 +1,18 @@
 [
   {
+    "id": "2039880821",
+    "title": "Recyclable and Low Fat Products",
+    "titleSlug": "recyclable-and-low-fat-products",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1781966723",
+    "submissionDate": "2026-06-20 20:15:23",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/recyclable-and-low-fat-products/",
+    "isPending": false
+  },
+  {
     "id": "2038597960",
     "title": "Find the Highest Altitude",
     "titleSlug": "find-the-highest-altitude",
