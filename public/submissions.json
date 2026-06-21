@@ -1,5 +1,18 @@
 [
   {
+    "id": "2041021640",
+    "title": "Maximum Ice Cream Bars",
+    "titleSlug": "maximum-ice-cream-bars",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1782048413",
+    "submissionDate": "2026-06-21 18:56:53",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/maximum-ice-cream-bars/",
+    "isPending": false
+  },
+  {
     "id": "2039880821",
     "title": "Recyclable and Low Fat Products",
     "titleSlug": "recyclable-and-low-fat-products",
