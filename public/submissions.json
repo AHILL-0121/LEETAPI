@@ -1,5 +1,18 @@
 [
   {
+    "id": "2048004602",
+    "title": "Percentage of Users Attended a Contest",
+    "titleSlug": "percentage-of-users-attended-a-contest",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1782575684",
+    "submissionDate": "2026-06-27 21:24:44",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/percentage-of-users-attended-a-contest/",
+    "isPending": false
+  },
+  {
     "id": "2041021640",
     "title": "Maximum Ice Cream Bars",
     "titleSlug": "maximum-ice-cream-bars",
