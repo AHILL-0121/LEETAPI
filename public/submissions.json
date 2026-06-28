@@ -1,5 +1,18 @@
 [
   {
+    "id": "2049059588",
+    "title": "Maximum Element After Decreasing and Rearranging",
+    "titleSlug": "maximum-element-after-decreasing-and-rearranging",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1782658944",
+    "submissionDate": "2026-06-28 20:32:24",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/",
+    "isPending": false
+  },
+  {
     "id": "2048004602",
     "title": "Percentage of Users Attended a Contest",
     "titleSlug": "percentage-of-users-attended-a-contest",
