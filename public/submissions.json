@@ -1,5 +1,18 @@
 [
   {
+    "id": "2050035928",
+    "title": "Number of Strings That Appear as Substrings in Word",
+    "titleSlug": "number-of-strings-that-appear-as-substrings-in-word",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1782735611",
+    "submissionDate": "2026-06-29 17:50:11",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/",
+    "isPending": false
+  },
+  {
     "id": "2049059588",
     "title": "Maximum Element After Decreasing and Rearranging",
     "titleSlug": "maximum-element-after-decreasing-and-rearranging",
