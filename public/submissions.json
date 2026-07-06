@@ -1,5 +1,18 @@
 [
   {
+    "id": "2058102740",
+    "title": "Remove Covered Intervals",
+    "titleSlug": "remove-covered-intervals",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1783345754",
+    "submissionDate": "2026-07-06 19:19:14",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/remove-covered-intervals/",
+    "isPending": false
+  },
+  {
     "id": "2057025160",
     "title": "Calculate Special Bonus",
     "titleSlug": "calculate-special-bonus",
