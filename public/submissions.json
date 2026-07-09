@@ -1,5 +1,18 @@
 [
   {
+    "id": "2061898835",
+    "title": "Path Existence Queries in a Graph I",
+    "titleSlug": "path-existence-queries-in-a-graph-i",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1783611134",
+    "submissionDate": "2026-07-09 21:02:14",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/path-existence-queries-in-a-graph-i/",
+    "isPending": false
+  },
+  {
     "id": "2060558296",
     "title": "The Latest Login in 2020",
     "titleSlug": "the-latest-login-in-2020",
