@@ -1,5 +1,18 @@
 [
   {
+    "id": "2063928116",
+    "title": "Count the Number of Complete Components",
+    "titleSlug": "count-the-number-of-complete-components",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1783778116",
+    "submissionDate": "2026-07-11 19:25:16",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/count-the-number-of-complete-components/",
+    "isPending": false
+  },
+  {
     "id": "2061898835",
     "title": "Path Existence Queries in a Graph I",
     "titleSlug": "path-existence-queries-in-a-graph-i",
