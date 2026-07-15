@@ -1,5 +1,18 @@
 [
   {
+    "id": "2068519095",
+    "title": "Employees With Missing Information",
+    "titleSlug": "employees-with-missing-information",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1784113764",
+    "submissionDate": "2026-07-15 16:39:24",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/employees-with-missing-information/",
+    "isPending": false
+  },
+  {
     "id": "2066291681",
     "title": "Sequential Digits",
     "titleSlug": "sequential-digits",
