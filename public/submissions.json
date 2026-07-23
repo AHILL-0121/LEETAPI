@@ -1,5 +1,18 @@
 [
   {
+    "id": "2078240906",
+    "title": "Employees Whose Manager Left the Company",
+    "titleSlug": "employees-whose-manager-left-the-company",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1784801302",
+    "submissionDate": "2026-07-23 15:38:22",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/employees-whose-manager-left-the-company/",
+    "isPending": false
+  },
+  {
     "id": "2074534712",
     "title": "Shift 2D Grid",
     "titleSlug": "shift-2d-grid",
