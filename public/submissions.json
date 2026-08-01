@@ -1,5 +1,18 @@
 [
   {
+    "id": "2090134473",
+    "title": "Predict the Winner",
+    "titleSlug": "predict-the-winner",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1785596481",
+    "submissionDate": "2026-08-01 20:31:21",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/predict-the-winner/",
+    "isPending": false
+  },
+  {
     "id": "2078240906",
     "title": "Employees Whose Manager Left the Company",
     "titleSlug": "employees-whose-manager-left-the-company",
