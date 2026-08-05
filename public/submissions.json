@@ -1,5 +1,18 @@
 [
   {
+    "id": "2095481156",
+    "title": "Remove Methods From Project",
+    "titleSlug": "remove-methods-from-project",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1785942315",
+    "submissionDate": "2026-08-05 20:35:15",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/remove-methods-from-project/",
+    "isPending": false
+  },
+  {
     "id": "2091786941",
     "title": "Stone Game",
     "titleSlug": "stone-game",
