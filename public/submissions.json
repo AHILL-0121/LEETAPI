@@ -1,5 +1,18 @@
 [
   {
+    "id": "2096795367",
+    "title": "Smallest Divisible Digit Product I",
+    "titleSlug": "smallest-divisible-digit-product-i",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1786026298",
+    "submissionDate": "2026-08-06 19:54:58",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/smallest-divisible-digit-product-i/",
+    "isPending": false
+  },
+  {
     "id": "2095481156",
     "title": "Remove Methods From Project",
     "titleSlug": "remove-methods-from-project",
