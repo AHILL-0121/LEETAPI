@@ -1,5 +1,18 @@
 [
   {
+    "id": "2098185755",
+    "title": "Number of Unique Subjects Taught by Each Teacher",
+    "titleSlug": "number-of-unique-subjects-taught-by-each-teacher",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1786119973",
+    "submissionDate": "2026-08-07 21:56:13",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/number-of-unique-subjects-taught-by-each-teacher/",
+    "isPending": false
+  },
+  {
     "id": "2096795367",
     "title": "Smallest Divisible Digit Product I",
     "titleSlug": "smallest-divisible-digit-product-i",
