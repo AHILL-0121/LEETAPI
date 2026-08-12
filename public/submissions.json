@@ -1,5 +1,18 @@
 [
   {
+    "id": "2104263261",
+    "title": "Product Price at a Given Date",
+    "titleSlug": "product-price-at-a-given-date",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1786543303",
+    "submissionDate": "2026-08-12 19:31:43",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/product-price-at-a-given-date/",
+    "isPending": false
+  },
+  {
     "id": "2102922640",
     "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
     "titleSlug": "smallest-missing-integer-greater-than-sequential-prefix-sum",
