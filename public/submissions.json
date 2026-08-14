@@ -1,5 +1,18 @@
 [
   {
+    "id": "2106767842",
+    "title": "Array Reduce Transformation",
+    "titleSlug": "array-reduce-transformation",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1786722569",
+    "submissionDate": "2026-08-14 21:19:29",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/array-reduce-transformation/",
+    "isPending": false
+  },
+  {
     "id": "2105391681",
     "title": "Find Valid Emails",
     "titleSlug": "find-valid-emails",
