@@ -1,5 +1,18 @@
 [
   {
+    "id": "2109327279",
+    "title": "Get the Size of a DataFrame",
+    "titleSlug": "get-the-size-of-a-dataframe",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1786902958",
+    "submissionDate": "2026-08-16 23:25:58",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/get-the-size-of-a-dataframe/",
+    "isPending": false
+  },
+  {
     "id": "2107594519",
     "title": "Immediate Food Delivery II",
     "titleSlug": "immediate-food-delivery-ii",
