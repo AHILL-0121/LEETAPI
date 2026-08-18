@@ -1,5 +1,18 @@
 [
   {
+    "id": "2111263942",
+    "title": "Display the First Three Rows",
+    "titleSlug": "display-the-first-three-rows",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1787048032",
+    "submissionDate": "2026-08-18 15:43:52",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/display-the-first-three-rows/",
+    "isPending": false
+  },
+  {
     "id": "2110247716",
     "title": "Product Sales Analysis I",
     "titleSlug": "product-sales-analysis-i",
