@@ -1,5 +1,18 @@
 [
   {
+    "id": "2116297899",
+    "title": "Create a New Column",
+    "titleSlug": "create-a-new-column",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1787412378",
+    "submissionDate": "2026-08-22 20:56:18",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/create-a-new-column/",
+    "isPending": false
+  },
+  {
     "id": "2115112659",
     "title": "Last Person to Fit in the Bus",
     "titleSlug": "last-person-to-fit-in-the-bus",
