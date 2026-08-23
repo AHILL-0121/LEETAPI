@@ -1,5 +1,18 @@
 [
   {
+    "id": "2117536106",
+    "title": "Drop Duplicate Rows",
+    "titleSlug": "drop-duplicate-rows",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1787500863",
+    "submissionDate": "2026-08-23 21:31:03",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/drop-duplicate-rows/",
+    "isPending": false
+  },
+  {
     "id": "2116297899",
     "title": "Create a New Column",
     "titleSlug": "create-a-new-column",
