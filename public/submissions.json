@@ -1,5 +1,18 @@
 [
   {
+    "id": "2118409819",
+    "title": "Drop Missing Data",
+    "titleSlug": "drop-missing-data",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1787574555",
+    "submissionDate": "2026-08-24 17:59:15",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/drop-missing-data/",
+    "isPending": false
+  },
+  {
     "id": "2117536106",
     "title": "Drop Duplicate Rows",
     "titleSlug": "drop-duplicate-rows",
