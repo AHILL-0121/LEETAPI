@@ -1,5 +1,18 @@
 [
   {
+    "id": "2119308714",
+    "title": "Modify Columns",
+    "titleSlug": "modify-columns",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1787639969",
+    "submissionDate": "2026-08-25 12:09:29",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/modify-columns/",
+    "isPending": false
+  },
+  {
     "id": "2118409819",
     "title": "Drop Missing Data",
     "titleSlug": "drop-missing-data",
