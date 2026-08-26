@@ -1,5 +1,18 @@
 [
   {
+    "id": "2120946021",
+    "title": "Rename Columns",
+    "titleSlug": "rename-columns",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1787757213",
+    "submissionDate": "2026-08-26 20:43:33",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/rename-columns/",
+    "isPending": false
+  },
+  {
     "id": "2119308714",
     "title": "Modify Columns",
     "titleSlug": "modify-columns",
