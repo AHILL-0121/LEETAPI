@@ -1,5 +1,18 @@
 [
   {
+    "id": "2125183444",
+    "title": "Reshape Data: Pivot",
+    "titleSlug": "reshape-data-pivot",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1788103651",
+    "submissionDate": "2026-08-30 20:57:31",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/reshape-data-pivot/",
+    "isPending": false
+  },
+  {
     "id": "2123819362",
     "title": "Reshape Data: Concatenate",
     "titleSlug": "reshape-data-concatenate",
