@@ -1,5 +1,18 @@
 [
   {
+    "id": "2126223587",
+    "title": "Reshape Data: Melt",
+    "titleSlug": "reshape-data-melt",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1788187956",
+    "submissionDate": "2026-08-31 20:22:36",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/reshape-data-melt/",
+    "isPending": false
+  },
+  {
     "id": "2125183444",
     "title": "Reshape Data: Pivot",
     "titleSlug": "reshape-data-pivot",
