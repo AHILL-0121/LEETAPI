@@ -1,5 +1,18 @@
 [
   {
+    "id": "2128530214",
+    "title": "Count Salary Categories",
+    "titleSlug": "count-salary-categories",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1788358804",
+    "submissionDate": "2026-09-02 19:50:04",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/count-salary-categories/",
+    "isPending": false
+  },
+  {
     "id": "2127189460",
     "title": "Method Chaining",
     "titleSlug": "method-chaining",
