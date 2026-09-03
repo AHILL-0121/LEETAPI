@@ -1,5 +1,18 @@
 [
   {
+    "id": "2129763445",
+    "title": "Pascal's Triangle II",
+    "titleSlug": "pascals-triangle-ii",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1788449133",
+    "submissionDate": "2026-09-03 20:55:33",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/pascals-triangle-ii/",
+    "isPending": false
+  },
+  {
     "id": "2128530214",
     "title": "Count Salary Categories",
     "titleSlug": "count-salary-categories",
