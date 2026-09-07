@@ -1,5 +1,18 @@
 [
   {
+    "id": "2134060821",
+    "title": "Ugly Number",
+    "titleSlug": "ugly-number",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1788795205",
+    "submissionDate": "2026-09-07 21:03:25",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/ugly-number/",
+    "isPending": false
+  },
+  {
     "id": "2133091004",
     "title": "Tenth Line",
     "titleSlug": "tenth-line",
