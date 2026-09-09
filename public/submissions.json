@@ -1,5 +1,18 @@
 [
   {
+    "id": "2136363548",
+    "title": "Range Sum Query - Immutable",
+    "titleSlug": "range-sum-query-immutable",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1788960133",
+    "submissionDate": "2026-09-09 18:52:13",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/range-sum-query-immutable/",
+    "isPending": false
+  },
+  {
     "id": "2135293037",
     "title": "Nim Game",
     "titleSlug": "nim-game",
