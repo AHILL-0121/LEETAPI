@@ -1,5 +1,18 @@
 [
   {
+    "id": "2138895265",
+    "title": "Guess Number Higher or Lower",
+    "titleSlug": "guess-number-higher-or-lower",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1789152690",
+    "submissionDate": "2026-09-12 00:21:30",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/guess-number-higher-or-lower/",
+    "isPending": false
+  },
+  {
     "id": "2137492400",
     "title": "Counting Bits",
     "titleSlug": "counting-bits",
