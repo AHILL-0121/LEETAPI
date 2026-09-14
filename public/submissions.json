@@ -1,5 +1,18 @@
 [
   {
+    "id": "2141492330",
+    "title": "Find the Difference",
+    "titleSlug": "find-the-difference",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1789384939",
+    "submissionDate": "2026-09-14 16:52:19",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/find-the-difference/",
+    "isPending": false
+  },
+  {
     "id": "2138895265",
     "title": "Guess Number Higher or Lower",
     "titleSlug": "guess-number-higher-or-lower",
