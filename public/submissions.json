@@ -1,5 +1,18 @@
 [
   {
+    "id": "2144881320",
+    "title": "Sum of Left Leaves",
+    "titleSlug": "sum-of-left-leaves",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1789660124",
+    "submissionDate": "2026-09-17 21:18:44",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/sum-of-left-leaves/",
+    "isPending": false
+  },
+  {
     "id": "2143798462",
     "title": "Binary Watch",
     "titleSlug": "binary-watch",
