@@ -1,5 +1,18 @@
 [
   {
+    "id": "2146652992",
+    "title": "Third Maximum Number",
+    "titleSlug": "third-maximum-number",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1789822448",
+    "submissionDate": "2026-09-19 18:24:08",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/third-maximum-number/",
+    "isPending": false
+  },
+  {
     "id": "2145760042",
     "title": "Longest Palindrome",
     "titleSlug": "longest-palindrome",
