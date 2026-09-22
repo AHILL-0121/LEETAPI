@@ -1,5 +1,18 @@
 [
   {
+    "id": "2149898331",
+    "title": "Number of Segments in a String",
+    "titleSlug": "number-of-segments-in-a-string",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1790091413",
+    "submissionDate": "2026-09-22 21:06:53",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/number-of-segments-in-a-string/",
+    "isPending": false
+  },
+  {
     "id": "2148889345",
     "title": "Add Strings",
     "titleSlug": "add-strings",
