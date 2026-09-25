@@ -1,5 +1,18 @@
 [
   {
+    "id": "2152844838",
+    "title": "Repeated Substring Pattern",
+    "titleSlug": "repeated-substring-pattern",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1790329125",
+    "submissionDate": "2026-09-25 15:08:45",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/repeated-substring-pattern/",
+    "isPending": false
+  },
+  {
     "id": "2150984050",
     "title": "Assign Cookies",
     "titleSlug": "assign-cookies",
