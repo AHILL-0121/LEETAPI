@@ -1,5 +1,18 @@
 [
   {
+    "id": "2153874114",
+    "title": "Hamming Distance",
+    "titleSlug": "hamming-distance",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1790427751",
+    "submissionDate": "2026-09-26 18:32:31",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/hamming-distance/",
+    "isPending": false
+  },
+  {
     "id": "2152844838",
     "title": "Repeated Substring Pattern",
     "titleSlug": "repeated-substring-pattern",
