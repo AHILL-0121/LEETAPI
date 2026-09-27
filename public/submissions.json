@@ -1,5 +1,18 @@
 [
   {
+    "id": "2155198351",
+    "title": "License Key Formatting",
+    "titleSlug": "license-key-formatting",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1790529226",
+    "submissionDate": "2026-09-27 22:43:46",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/license-key-formatting/",
+    "isPending": false
+  },
+  {
     "id": "2153874114",
     "title": "Hamming Distance",
     "titleSlug": "hamming-distance",
