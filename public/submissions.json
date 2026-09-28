@@ -1,5 +1,18 @@
 [
   {
+    "id": "2156264264",
+    "title": "Max Consecutive Ones",
+    "titleSlug": "max-consecutive-ones",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1790615811",
+    "submissionDate": "2026-09-28 22:46:51",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/max-consecutive-ones/",
+    "isPending": false
+  },
+  {
     "id": "2155198351",
     "title": "License Key Formatting",
     "titleSlug": "license-key-formatting",
