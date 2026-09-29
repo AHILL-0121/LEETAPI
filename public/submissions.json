@@ -1,5 +1,18 @@
 [
   {
+    "id": "2157211821",
+    "title": "Construct the Rectangle",
+    "titleSlug": "construct-the-rectangle",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1790693766",
+    "submissionDate": "2026-09-29 20:26:06",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/construct-the-rectangle/",
+    "isPending": false
+  },
+  {
     "id": "2156264264",
     "title": "Max Consecutive Ones",
     "titleSlug": "max-consecutive-ones",
