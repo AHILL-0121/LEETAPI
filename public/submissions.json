@@ -1,5 +1,18 @@
 [
   {
+    "id": "2159229272",
+    "title": "Find Mode in Binary Search Tree",
+    "titleSlug": "find-mode-in-binary-search-tree",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1790861294",
+    "submissionDate": "2026-10-01 18:58:14",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/find-mode-in-binary-search-tree/",
+    "isPending": false
+  },
+  {
     "id": "2158205365",
     "title": "Teemo Attacking",
     "titleSlug": "teemo-attacking",
