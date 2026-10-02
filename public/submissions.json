@@ -1,5 +1,18 @@
 [
   {
+    "id": "2160166954",
+    "title": "Perfect Number",
+    "titleSlug": "perfect-number",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1790947115",
+    "submissionDate": "2026-10-02 18:48:35",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/perfect-number/",
+    "isPending": false
+  },
+  {
     "id": "2159229272",
     "title": "Find Mode in Binary Search Tree",
     "titleSlug": "find-mode-in-binary-search-tree",
