@@ -1,5 +1,18 @@
 [
   {
+    "id": "2162179605",
+    "title": "Detect Capital",
+    "titleSlug": "detect-capital",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1791123317",
+    "submissionDate": "2026-10-04 19:45:17",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/detect-capital/",
+    "isPending": false
+  },
+  {
     "id": "2160992915",
     "title": "Fibonacci Number",
     "titleSlug": "fibonacci-number",
