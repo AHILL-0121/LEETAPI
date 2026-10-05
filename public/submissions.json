@@ -1,5 +1,18 @@
 [
   {
+    "id": "2163128452",
+    "title": "Longest Uncommon Subsequence I",
+    "titleSlug": "longest-uncommon-subsequence-i",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1791205210",
+    "submissionDate": "2026-10-05 18:30:10",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/longest-uncommon-subsequence-i/",
+    "isPending": false
+  },
+  {
     "id": "2162179605",
     "title": "Detect Capital",
     "titleSlug": "detect-capital",
