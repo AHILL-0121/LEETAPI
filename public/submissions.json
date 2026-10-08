@@ -1,5 +1,18 @@
 [
   {
+    "id": "2166381930",
+    "title": "Populating Next Right Pointers in Each Node",
+    "titleSlug": "populating-next-right-pointers-in-each-node",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1791468035",
+    "submissionDate": "2026-10-08 19:30:35",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/populating-next-right-pointers-in-each-node/",
+    "isPending": false
+  },
+  {
     "id": "2165141393",
     "title": "Path Sum II",
     "titleSlug": "path-sum-ii",
