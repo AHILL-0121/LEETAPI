@@ -1,5 +1,18 @@
 [
   {
+    "id": "2180419871",
+    "title": "Word Frequency",
+    "titleSlug": "word-frequency",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1792845395",
+    "submissionDate": "2026-10-24 18:06:35",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/word-frequency/",
+    "isPending": false
+  },
+  {
     "id": "2179838136",
     "title": "Rectangle Area",
     "titleSlug": "rectangle-area",
