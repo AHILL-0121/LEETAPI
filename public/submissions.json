@@ -1,5 +1,18 @@
 [
   {
+    "id": "2181381695",
+    "title": "Repeated DNA Sequences",
+    "titleSlug": "repeated-dna-sequences",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1792932205",
+    "submissionDate": "2026-10-25 18:13:25",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/repeated-dna-sequences/",
+    "isPending": false
+  },
+  {
     "id": "2180419871",
     "title": "Word Frequency",
     "titleSlug": "word-frequency",
