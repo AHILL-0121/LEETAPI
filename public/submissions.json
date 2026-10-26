@@ -1,5 +1,18 @@
 [
   {
+    "id": "2182316776",
+    "title": "Maximal Square",
+    "titleSlug": "maximal-square",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1793026350",
+    "submissionDate": "2026-10-26 20:22:30",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/maximal-square/",
+    "isPending": false
+  },
+  {
     "id": "2181381695",
     "title": "Repeated DNA Sequences",
     "titleSlug": "repeated-dna-sequences",
