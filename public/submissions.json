@@ -1,5 +1,18 @@
 [
   {
+    "id": "2183247211",
+    "title": "Perfect Squares",
+    "titleSlug": "perfect-squares",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1793118227",
+    "submissionDate": "2026-10-27 21:53:47",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/perfect-squares/",
+    "isPending": false
+  },
+  {
     "id": "2182316776",
     "title": "Maximal Square",
     "titleSlug": "maximal-square",
