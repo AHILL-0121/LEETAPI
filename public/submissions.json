@@ -1,5 +1,18 @@
 [
   {
+    "id": "2184795691",
+    "title": "Longest Increasing Subsequence",
+    "titleSlug": "longest-increasing-subsequence",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1793285213",
+    "submissionDate": "2026-10-29 20:16:53",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/longest-increasing-subsequence/",
+    "isPending": false
+  },
+  {
     "id": "2183983245",
     "title": "Peeking Iterator",
     "titleSlug": "peeking-iterator",
