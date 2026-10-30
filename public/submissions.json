@@ -1,5 +1,18 @@
 [
   {
+    "id": "2185527315",
+    "title": "Minimum Height Trees",
+    "titleSlug": "minimum-height-trees",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1793368100",
+    "submissionDate": "2026-10-30 19:18:20",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/minimum-height-trees/",
+    "isPending": false
+  },
+  {
     "id": "2184795691",
     "title": "Longest Increasing Subsequence",
     "titleSlug": "longest-increasing-subsequence",
