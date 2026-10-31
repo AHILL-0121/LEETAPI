@@ -1,5 +1,18 @@
 [
   {
+    "id": "2186283348",
+    "title": "Additive Number",
+    "titleSlug": "additive-number",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1793459956",
+    "submissionDate": "2026-10-31 20:49:16",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/additive-number/",
+    "isPending": false
+  },
+  {
     "id": "2185527315",
     "title": "Minimum Height Trees",
     "titleSlug": "minimum-height-trees",
