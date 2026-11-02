@@ -1,5 +1,18 @@
 [
   {
+    "id": "2187770604",
+    "title": "Bulls and Cows",
+    "titleSlug": "bulls-and-cows",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1793625733",
+    "submissionDate": "2026-11-02 18:52:13",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/bulls-and-cows/",
+    "isPending": false
+  },
+  {
     "id": "2186283348",
     "title": "Additive Number",
     "titleSlug": "additive-number",
