@@ -1,5 +1,18 @@
 [
   {
+    "id": "2188575617",
+    "title": "Average of Levels in Binary Tree",
+    "titleSlug": "average-of-levels-in-binary-tree",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1793709154",
+    "submissionDate": "2026-11-03 18:02:34",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/average-of-levels-in-binary-tree/",
+    "isPending": false
+  },
+  {
     "id": "2187770604",
     "title": "Bulls and Cows",
     "titleSlug": "bulls-and-cows",
