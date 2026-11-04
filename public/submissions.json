@@ -1,5 +1,18 @@
 [
   {
+    "id": "2189282637",
+    "title": "Min Cost Climbing Stairs",
+    "titleSlug": "min-cost-climbing-stairs",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1793788999",
+    "submissionDate": "2026-11-04 16:13:19",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/min-cost-climbing-stairs/",
+    "isPending": false
+  },
+  {
     "id": "2188575617",
     "title": "Average of Levels in Binary Tree",
     "titleSlug": "average-of-levels-in-binary-tree",
