@@ -1,5 +1,18 @@
 [
   {
+    "id": "2190693364",
+    "title": "Longest Substring with At Least K Repeating Characters",
+    "titleSlug": "longest-substring-with-at-least-k-repeating-characters",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1793969263",
+    "submissionDate": "2026-11-06 18:17:43",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/",
+    "isPending": false
+  },
+  {
     "id": "2190074551",
     "title": "Linked List Random Node",
     "titleSlug": "linked-list-random-node",
