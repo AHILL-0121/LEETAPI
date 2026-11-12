@@ -1,5 +1,18 @@
 [
   {
+    "id": "2194755501",
+    "title": "Binary Tree Tilt",
+    "titleSlug": "binary-tree-tilt",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1794501077",
+    "submissionDate": "2026-11-12 22:01:17",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/binary-tree-tilt/",
+    "isPending": false
+  },
+  {
     "id": "2194012659",
     "title": "Binary Tree Maximum Path Sum",
     "titleSlug": "binary-tree-maximum-path-sum",
