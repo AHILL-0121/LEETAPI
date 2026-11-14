@@ -1,5 +1,18 @@
 [
   {
+    "id": "2196004411",
+    "title": "Word Ladder",
+    "titleSlug": "word-ladder",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1794669058",
+    "submissionDate": "2026-11-14 20:40:58",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/word-ladder/",
+    "isPending": false
+  },
+  {
     "id": "2195347031",
     "title": "Largest Number At Least Twice of Others",
     "titleSlug": "largest-number-at-least-twice-of-others",
