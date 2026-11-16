@@ -1,5 +1,18 @@
 [
   {
+    "id": "2197281824",
+    "title": "Super Ugly Number",
+    "titleSlug": "super-ugly-number",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1794831270",
+    "submissionDate": "2026-11-16 17:44:30",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/super-ugly-number/",
+    "isPending": false
+  },
+  {
     "id": "2196730946",
     "title": "Single Number III",
     "titleSlug": "single-number-iii",
