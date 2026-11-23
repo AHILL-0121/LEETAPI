@@ -1,5 +1,18 @@
 [
   {
+    "id": "2201888196",
+    "title": "Number of Digit One",
+    "titleSlug": "number-of-digit-one",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1795434519",
+    "submissionDate": "2026-11-23 17:18:39",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/number-of-digit-one/",
+    "isPending": false
+  },
+  {
     "id": "2201289440",
     "title": "Integer to English Words",
     "titleSlug": "integer-to-english-words",
