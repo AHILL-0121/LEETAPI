@@ -1,5 +1,18 @@
 [
   {
+    "id": "2203280910",
+    "title": "Expression Add Operators",
+    "titleSlug": "expression-add-operators",
+    "status": 10,
+    "language": "unknown",
+    "timestamp": "1795617347",
+    "submissionDate": "2026-11-25 20:05:47",
+    "runtime": "N/A",
+    "memory": "N/A",
+    "url": "https://leetcode.com/problems/expression-add-operators/",
+    "isPending": false
+  },
+  {
     "id": "2202611802",
     "title": "Shortest Palindrome",
     "titleSlug": "shortest-palindrome",
